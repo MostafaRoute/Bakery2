@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*start home*/
+.header{
+    
+     height: 100vh;
+     background-image: url(images/drew-coffman-1872.jpg);
+     background-size: cover;
+     background-position:center center ;
+}
+.nav{
+    padding: 15px 140px
+
+} 
+.nav img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 18%;
+    padding:20px 30px ;
+ 
+}
+.nav .nav-link{
+    display: inline-block;
+    vertical-align: middle;
+    width: 81%;
+    text-align: right;
+}
+.nav .nav-link li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav .nav-link li a{
+
+    text-decoration: none;
+    font-family: "Alegreya";
+    font-size: 17px;
+    color:white;
+    padding: 15px;
+}
+.content{
+    padding: 100px;
+    text-align: center;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.content h1{
+    margin-bottom: 18px; 
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 60px 
+}
+.bt{
+    border: none;
+    border-radius: 5px;
+    padding:15px 20px ;
+    font-family: "Alegreya Sans";
+}
+.bt1{ 
+    background-color: bisque;
+}
+.bt2{
+    background-color: aliceblue;
+
+}
+/*end home*/
+/* start section 2*/
+.who{
+    padding: 100px;
+    display: inline-block;
+    vertical-align: middle;  
+}
+ .who .who-image{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+.who .who-image img{
+    width: 100%;
+}
+ .who .capttion{
+    width: 44%;
+    text-align: left;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 90px;
+}
+.who .capttion h2{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.who .capttion p{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding-bottom: 20px;
+    color: #686868;
+
+}
+.who .sec-img{
+    float:left;
+    width: 7%;
+     padding-bottom: 15px; 
+    line-height: 44px;
+    font-size: 20px;
+}
+.who .sec-img img {
+    width: 100%;
+    border: 1px solid #cb5252;
+    border-radius: 50%;
+
+}
+
+.who .sec-p{
+    float:right;
+    width: 93%;
+    padding-bottom: 20px;
+
+}
+.who .capttion li{
+    list-style-type: none; 
+} 
+/*end section2*/
+
+
+.location{
+    padding: 100px;
+    background-color:#f8f8f8;
+    display: inline-block;
+    vertical-align: middle;
+}
+ .location .location-image{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 50px 0 50px 50px
+}
+ .location .location-image img{
+    width: 100%;
+ }
+
+
+ .location .capttion{
+    width: 54%;
+    text-align: left;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align:middle; 
+    padding: 60px 60px
+    
+}
+.location .capttion h2{
+    padding-bottom: 40px;
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+.location .capttion p{
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #777;
+}
+/**/
+/**/
+.baking{
+    text-align: center;
+    padding: 100px;
+    background-color: #fff;
+
+}
+.baking h2{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.baking h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.baking p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #888;
+    padding-left: 20px;
+
+}
+
+.baking .bak {
+    margin-bottom: 30px;
+    line-height: 45px;
+}
+.baking .about{
+    float: left;
+    width: 33.3333%;
+    line-height: 40px;
+
+}
+.baking .about img{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.baking .about h2{
+    margin-bottom: 20px;
+}
+.clr{
+    clear: both;
+}
+/*start sec4*/
+.section4{
+    background-color: #f8f8f8;
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 90px;
+    line-height: 30px;
+
+}
+.section4 .sec-left{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+}
+.section4 .map{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+}
+.section4 h2{
+    margin-bottom: 40px;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.section4 .p{
+    line-height: 40px;
+    padding: 20px;
+    color: #777;
+}
+.section4 .s-img li{
+    list-style-type: none; 
+    border: 0;
+    padding: 15px 0;
+    padding-left: 20px;
+    color: #777;
+} 
+ .section4 .sec-img img {
+    float:left;
+    width: 7%;
+    filter: none;
+    color: #fff;
+    background: rgb(128, 117, 117);
+    border-radius: 100%;
+   top: 10px;
+}
+
+ .section4 .sec-p{
+    float:right;
+    width: 93%;
+    padding-left: 10px;
+}
+
+.clr{
+    clear: both;
+}
+/*end*/
+/*startsec5*/
+.section5{
+    text-align: left;
+    padding: 50px;
+   /* width: 100%;*/
+    background-color: #403d38;
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #fff;
+}
+.section5 h2{
+    font-family: 'Alegreya';
+    font-weight: 400px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.section5  .about p{
+
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #777;
+    padding-left: 30px;
+}
+.section5 .about{
+    float: left;
+    width: 25%;
+    padding-left: 25px;
+
+}
+.section5 .contact{
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.section5 li{
+    list-style-type:none;
+    color: #969696;
+    padding-left: 15px;
+     border-bottom: #484540 solid 1px;
+}
+.section5 .contact .sec-img {
+    float:left;
+    width: 10%;
+    padding-bottom: 20px;  
+
+}
+.section5 .sec-img img{
+    width: 100%;
+}
+
+.section5 .contact .sec-p{
+    float:right;
+    width: 90%;
+    padding-bottom: 20px;
+
+}
+.section5 .about .sec-img  {
+    float:left;
+    width: 5%;
+    padding-bottom: 20px;  
+
+}
+
+.section5 .sec-p{
+    float:right;
+    width: 95%;
+}
+
+.clr{
+    clear: both;
+}
+/*end*/
+/*start footer*/
+.footer{
+    background-color: #353330;
+    text-align: center;
+    padding: 50px;
+}
+.footer p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+    color: #777;
+    padding-top: 20px;
+}
+.foot li{
+    width: 15%;
+   margin: 20px auto;
+    list-style-type:none;
+
+}
+.face  {
+    float:left;
+    width: 19%;
+    background-color: #484540;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.footer .foot img{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
